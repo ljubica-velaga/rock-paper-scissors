@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="results">SCORE:
+      <span>Player's wins:<span id="playerScore"></span></span>
+      <span>Computer's wins:<span id="computerScore"></span></span>
+    </div>
+
+    <div id="gameBody">
+      <div id="choiceButtons">
+        <button id="rock"><img src="https://images.unsplash.com/photo-1614032686163-bdc24c13d0b6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rock" /></button>
+        <button id="paper"><img src="https://images.unsplash.com/photo-1614032686158-b880f7e82c18?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paper" /></button>
+        <button id="scissors"><img src="https://images.unsplash.com/photo-1614032686099-e648d6dea9b3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Scissors" /></button>
+      </div>
+        
+      <div>Your choice is: <span id="playerChoice"></span></div>
+
+      <button id="playBtn">Play</button>
+    </div>
+
+    <div id="outcomes">
+      <p id="computerChoice"></p>
+      <p id="roundOutput">Who will win?</p>
+      <p id="winner"></p>
+    </div>
+   
+    <script src="./updatedscript.js"></script>
+  </body>
+</html>

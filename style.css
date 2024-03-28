@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 30px;
+    font-size: 20px;
+}
+
+#results,
+#gameBody,
+#outcomes {
+  width: 30vw;
+  padding: 10px 10px 10px 10px;
+  outline: 2px solid blue;
+}
+
+#results {
+  display: flex;
+  justify-content: space-between;
+}
+
+#gameBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#choiceButtons {
+  display: flex;
+  gap: 20px;
+}
+
+#outcomes {
+  text-align: center;
+}
+
+#playBtn {
+    height: 30px;
+    font-size: 20px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+
+/* * {
+    outline: 1px solid #3882f6;
+} */
